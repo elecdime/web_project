@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+@font-face {
+    font-family: 'Binggrae-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Binggrae-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'BinggraeMelona';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/BinggraeMelona.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    background-color:#ffffff;
+}
+
+#header {
+    background-color: rgba(0,0,0,0.8);
+    width: 100%;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+}
+
+#header img {
+    margin-top: 13px;
+}
+
+#header a {
+    line-height: 45px;
+    color: #ffffff;
+
+}
+
+#header .header_menu a {
+ font-family:'BinggraeMelona'
+}
+#header .header_contact a {
+ font-family:'Binggrae-Bold'
+}
+#header .header_title a {
+ font-family:'Binggrae-Bold'
+}
+
+#header div {
+    margin-left: 30px;
+}
+
+#header .header_title {
+    margin-left: 10px;
+}
+
+.header_menu li, .header_contact li {
+    margin-left: 20px;
+}
+
+.header_brand, .header_title, .header_menu, .header_contact {
+    display: flex;
+}
+
+.header_menu li, .header_contact li {
+    float: left;
+}
+.registerForm{
+   display:flex;
+   justify-content: center;
+}
+.registerForm input{
+   display:flex;
+   justify-content: center;
+}
+/* @media (min-width: 768px) and (max-width: 1024px) {
+    Code
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    Code
+}
+@media (min-width: 320px) and (max-width: 480px) {
+    Code
+} */
